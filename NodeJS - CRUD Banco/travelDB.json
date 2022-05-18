@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Barcelona",
+    "price": 500,
+    "img": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2020/03/Que-llevar-a-un-viaje.jpg"
+  },
+  {
+    "name": "Londres",
+    "price": 400,
+    "img": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2020/03/Que-llevar-a-un-viaje.jpg"
+  },
+  {
+    "name": "París",
+    "price": 2300,
+    "img": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2020/03/Que-llevar-a-un-viaje.jpg"
+  },
+  {
+    "name": "Barcelona",
+    "price": 500,
+    "img": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2020/03/Que-llevar-a-un-viaje.jpg"
+  },
+  {
+    "name": "Londres",
+    "price": 400,
+    "img": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2020/03/Que-llevar-a-un-viaje.jpg"
+  },
+  {
+    "name": "París",
+    "price": 2300,
+    "img": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2020/03/Que-llevar-a-un-viaje.jpg"
+  }
+]
