@@ -64,4 +64,12 @@ public class GestorManager {
     	session.close();
     	return gestor;
     }
+
+	public void delete(Long id) {
+		Session session = sessionFactory.openSession();
+		Gestor gestor = null;
+	    gestor = session.get(Gestor.class, id);
+		session.delete(gestor);
+	    session.close();
+	}
 }

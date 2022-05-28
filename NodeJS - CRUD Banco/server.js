@@ -1,7 +1,7 @@
 const express = require('express');
+const app = express();
 const cors = require('cors');
 const fs = require('fs');
-const app = express();
 const mysql = require('mysql2');
 
 
@@ -13,11 +13,12 @@ const port = 3000;
 function getConnection() {
   return mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'shop'
+    user: 'admin',
+    password: '1234',
+    database: 'banco'
   });  
 }
+
 
 
 app.get('/product', (req, res) => {
@@ -30,7 +31,6 @@ app.get('/product', (req, res) => {
     res.json(results);
   });
   connection.end();
-
 });
 
 app.get('/product/:id', (req, res) => {

@@ -12,8 +12,8 @@ public class Gestor {
     @Id
     @Column(name = "id")
     @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy = "increment")	
-    private long id;
+    @GenericGenerator(name="increment", strategy = "increment")
+    public long id;
     @Column(name = "usuario")
     private String usuario;
     @Column(name = "password")
